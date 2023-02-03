@@ -1,25 +1,3 @@
-# Client app
-
-The client app is implemented with ReactJS and uses `axios` to send HTTP requests to the server app.
-
-![alt text](https://github.com/raoufchebri/getting-started/blob/master/.img/todo-react-demo.gif?raw=true)
-
-## Getting started
-
-Install the project dependencines using the following command:
-`npm install`
-
-Run the application using `npm start`.
-
-You will first need to [implement the backend](../server/nodejs/README.md).
-
-## Using the starter project
-
-Install `axios` using the following command:
-`npm i axios `
-
-In the components/TodoList.js file, import axios then locate the onCreateItem function and add the following code inside the useCallback hook:
-
 ### Create
 
 ```
